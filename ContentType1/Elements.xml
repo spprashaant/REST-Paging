@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100976B0DF8C7D2484E8A8CE56A4F5597F3" Name="ContentType1" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{3C4E7A5B-B7D5-4779-A14A-490803E63923}" DisplayName="$Resources:dlccore,DocumentRoutingEnabled_DisplayName;" Required="TRUE" Name="RoutingEnabled" Sealed="TRUE" />
+    </FieldRefs>
+  </ContentType>
+  <Field Name="NumColumn1" ID="{4EFC66E2-D4D3-4F2D-BEDD-2A49A81372C9}" DisplayName="Num Column1" Type="Number" />
+</Elements>

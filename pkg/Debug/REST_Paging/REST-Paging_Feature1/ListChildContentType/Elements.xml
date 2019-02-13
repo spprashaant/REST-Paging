@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01007D89A80E4E23456888F57AC6719F96CA" Name="ListChildContentType" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" DisplayName="$Resources:core,Title;" Name="LinkTitleNoMenu" ReadOnly="TRUE" />
+      <FieldRef ID="{05f51ea6-7d11-4664-937d-cae587fc47e9}" DisplayName="SampleData" Name="SampleData" />
+    </FieldRefs>
+  </ContentType>
+  <Field Name="SampleData" ID="{05f51ea6-7d11-4664-937d-cae587fc47e9}" DisplayName="SampleData" Type="Lookup" List="Lists/SampleData" ShowField="Title" />
+</Elements>
